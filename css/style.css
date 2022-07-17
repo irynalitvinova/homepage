@@ -1,0 +1,338 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* Main styles */
+
+body {
+  font-family: 'Roboto Condenced', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #4BA6A3;
+  color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1220px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.section-page {
+  padding: 50px 0 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+
+/* Header */
+
+.header {
+  background-image: url('../images/dzhury-bg.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-size: cover;
+  position: relative;
+}
+
+
+.menu {
+  padding-top: 40px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__list-item {
+  padding: 0 20px;
+}
+
+.menu__list-link {
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.menu__list-link:hover {
+  text-decoration: underline;
+  color: #BC516F;
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
+/* Section About */
+
+.about__text p {
+  margin-bottom: 25px;
+}
+
+.about-writer__link {
+  text-decoration: underline;
+  color: #0501C8;
+}
+
+/* Section Books */
+
+.books__card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 10px;
+  font-size: 16px;
+  width: 18rem;
+}
+
+.card-title {
+  color: #BC516F;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #01593B;
+  border-color: #01593B;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #BC516F;
+  border-color: #BC516F;
+  font-weight: 700;
+}
+
+/* Section Heroes */
+
+.heroes {
+  padding-bottom: 50px;
+}
+
+.carousel-item {
+  padding-top: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+  display: none;
+}
+
+.heroes-img {
+  height: 400px;
+  left: 0;
+}
+
+.heroes__name {
+  font-size: 72px;
+  line-height: 84px;
+  color: #01593B;
+  margin-bottom: 20px;
+}
+
+.heroes-text {
+  top: 10px;
+  margin-left: 500px;
+  width: 400px;
+  text-align: left;
+  color: #000;
+}
+
+/* Footer */
+
+.copy {
+  padding: 14px 0 15px;
+  text-align: center;
+}
+
+/*  Start Page Book  */
+
+.page-header {
+  position: relative;
+}
+
+.menu__list-link--active {
+  text-decoration: underline;
+  color: #BC516F;
+}
+
+.menu__container {
+  position: relative;
+  max-width: 1385px;
+  margin: 0 auto;
+}
+
+/* Section Book-info */
+
+.book-info__text {
+  padding-top: 50px;
+}
+
+/* Section Book-gallery*/
+.book-gallery {
+  margin-bottom: 50px;
+}
+
+.book-info__text p {
+  margin-bottom: 15px;
+}
+
+.carousel-inner {
+  align-items: center;
+}
+
+.gallery-img {
+  height: 400px;
+  margin: 0 auto;
+}
+
+/* End Page Book */
+
+
+
+@media (max-width: 1366px) {
+  .menu__list-link {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroes-text {
+    top: 0;
+    margin-left: 450px;
+    width: 370px;
+
+  }
+}
+
+
+@media (max-width: 1088px) {
+  body {
+    font-size: 16px;
+  }
+
+  .section-page {
+    padding: 20px 0 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    top: 20px;
+  }
+
+  .logo__img {
+    max-width: 70%;
+  }
+
+
+  .book-info__text {
+    padding-top: 20px;
+  }
+ 
+  .heroes-text {
+    margin-left: 300px;
+    font-size: 14px;
+  }
+
+  .heroes-text p {
+    margin-bottom: 0;
+  }
+
+  .heroes__name {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+
+  .heroes-img {
+    max-width: 400px;
+    height: 330px;
+    padding-left: 100px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .menu__list-link {
+    font-size: 18px;
+     }
+  .heroes-text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 820px) {
+  .menu__list {
+    margin-left: 50px;
+  }
+  .menu__list-item {
+   
+    padding: 0 10px;
+  }
+  .heroes-img {
+    max-width: 350px;
+    padding-left: 70px;
+
+  }
+
+  .heroes-text {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroes-text {
+    display: none;
+  }
+
+  .heroes-img {
+
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+
+  .heroes-img {
+    width: 200px;
+    height: px;
+  }
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 374px) {}

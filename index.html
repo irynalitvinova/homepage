@@ -1,20 +1,183 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="uk">
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
-  <title>Homepage</title>
-  <script>
-            // Add code 
-  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dzhury</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-  <h1>Homepage</h1>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis est dolor nobis, totam natus cumque, at, earum beatae saepe quidem aliquam minus tempora animi esse dolores omnis. Eligendi, molestiae nostrum.</p>
+  <!-- Header -->
+  <header class="header">
+    <nav class="menu">
+      <a class="logo" href="index.html"><img class="logo__img" src="images/logo.png" alt="Logo"></a>
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="book1.html">1 книга</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="book2.html">2 книга</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="book3.html">3 книга</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-link" href="book4.html">4 книга</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Section About -->
+  <section class="about section-page">
+    <div class="container">
+      <h3 class="about__title title">Про серію книг</h3>
+      <div class="about__text">
+        <p>«Джури» — історична тетралогія для дітей українського письменника
+          <a class="about-writer__link"
+            href="https://uk.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Володимира
+            Рутківського</a>
+          про добу перших козаків, за яку автор отримав Шевченківську премію 2012 року.
+        </p>
+        <p>
+          Ким були найперші козаки? Звідкіля вони взялися? На ці запитання дає відповідь новий гостросюжетний
+          історичний роман Володимира Рутківського — українського дитячого письменника. Грицикові дивовижні герої та
+          розумні ідеї, малий волхв Санько, що подорожував разом з Грициком, юний богатир Демко Дурна Сила, який не
+          боявся нікого та нічого, крім діда Кібчика, його мама-велетка, що в бою була на рівні з козаками, невловимий
+          козак Швайка зі своїм вірним вовком Барвінком, що кожного разу повертався до села з новим досягненням, і
+          їхні численні друзі з честю виходять із найскладніших ситуацій. А небезпека чигає на кожному кроці, а,
+          надто, коли ти зважився підняти шаблю на могутню татарську орду, а за твоєю спиною — майже нікого…
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Section Books -->
+  <section class="books section-page">
+    <div class="container">
+      <h3 class="books__title title">Всі книги</h3>
+      <div class="books__card">
+        <div class="card" >
+          <img src="images/book1-img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Джури козака Швайки</h5>
+            <p class="card-text">«Джури козака Швайки» — перша книга захоплюючої історичної серії "Джури" українського
+              письменника Володимира Рутківського.</p>
+            <a href="book1.html" class="btn btn-primary">До книги...</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="images/book2-img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Джури-характерники</h5>
+            <p class="card-text">«Джури-характерники» — друга книга захоплюючої історичної серії "Джури" українського
+              письменника Володимира Рутківського.</p>
+            <a href="book2.html" class="btn btn-primary">До книги...</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="images/book3-img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Джури і підводний човен</h5>
+            <p class="card-text">«Джури і підводний човен» — третя книга захоплюючої історичної серії "Джури"
+              українського письменника Володимира Рутківського.</p>
+            <a href="book3.html" class="btn btn-primary">До книги...</a>
+          </div>
+        </div>
+        <div class="card" >
+          <img src="images/book4-img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Джури і Кудлатик</h5>
+            <p class="card-text">«Джури і Кудлатик» — четверта книга захоплюючої історичної серії "Джури" українського
+              письменника Володимира Рутківського.</p>
+            <a href="book4.html" class="btn btn-primary">До книги...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section Heroes -->
+  <section class="heroes section-page">
+    <div class="container">
+      <h3 class="heroes__title title">Головні герої</h3>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/hero-1.jpg" class="d-block w-50 heroes-img" alt="...">
+            <div class="carousel-caption d-none d-md-block heroes-text">
+              <h5 class="heroes__name">Грицик</h5>
+              <p class="heroes-text-desc"> Грицик - підліток, 12 років.</p>
+              <p class="heroes-text-desc">Грицик був сиротою (його батька і матір вбили татари, а хату спалили). Він був непосидющим хлопцем, мав
+                дуже гострий зір. Пас селянську і панську худобу, тільки його одного слухався величезний бугай Петрик.
+                Грицик знає татарську мову, якої навчився від діда-пастуха Миколи.Хлопець сміливий, мріє бути схожим на
+                Швайку, завжди готовий прийти на допомогу, здатний приймати самостійні рішення, поважає старших козаків.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/hero-2.jpg" class="d-block w-50 heroes-img" alt="...">
+            <div class="carousel-caption d-none d-md-block heroes-text">
+              <h5 class="heroes__name">Санько</h5>
+              <p class="heroes-text-desc"> Санько - друг Грицика.</p>
+              <p class="heroes-text-desc">Санько - єдиний син Мокрини, чоловіка якої вбили татари. Хлопець дуже спокійний, добрий, мрійливий,
+                розважливий, має талант характерника: уміє подумки віддавати накази й навіювати. (Характерник — віщун,
+                чаклун на Запорізькій Січі, який займався ворожінням і лікуванням поранених козаків).</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/hero-3.jpg" class="d-block w-50 heroes-img" alt="...">
+            <div class="carousel-caption d-none d-md-block heroes-text">
+              <h5 class="heroes__name">Швайка</h5>
+              <p class="heroes-text-desc"> Козак Швайка.</p>
+              <p class="heroes-text-desc">Пилип Швайка — смілий козак, який отримав таке прізвисько, бо штрикав ординців, мов швайка (швайка –
+                товсте шило у вигляді металевої голки, інструмент чоботаря). З роману дізнаємося, що Швайка широкоплечий
+                юнак, який має смагляве обличчя і чорні вуса. Швайка знає всі козацькі хитрощі, знається на травах і
+                зброї; він мудрий, завбачливий, рішучий, відважний, невловимий. Самовіддано любить рідну землю, має
+                багато товаришів, вірного коня Вітрика і вовка Барвінка.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="copy">Серія книг "Джури". Автор <a class="about-writer__link"
+          href="https://uk.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87">Володимир
+          Рутківський</a>.</p>
+    </div>
+  </footer>
 
 </body>
 
