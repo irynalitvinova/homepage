@@ -257,7 +257,7 @@ ul {
   .book-info__text {
     padding-top: 20px;
   }
- 
+
   .heroes-text {
     margin-left: 300px;
     font-size: 14px;
@@ -284,7 +284,8 @@ ul {
 @media (max-width: 992px) {
   .menu__list-link {
     font-size: 18px;
-     }
+  }
+
   .heroes-text {
     width: 300px;
   }
@@ -294,10 +295,12 @@ ul {
   .menu__list {
     margin-left: 50px;
   }
+
   .menu__list-item {
-   
+
     padding: 0 10px;
   }
+
   .heroes-img {
     max-width: 350px;
     padding-left: 70px;
