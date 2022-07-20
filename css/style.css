@@ -99,13 +99,13 @@ ul {
 
 .books__card {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .card {
   padding: 10px;
   font-size: 16px;
-  width: 18rem;
+  max-width: 20rem;
 }
 
 .card-title {
